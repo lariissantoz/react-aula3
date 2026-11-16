@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6d5dfc, #8e7bff);
+  padding: 1rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-header h2 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.login-header p {
+  margin: 0;
+  color: #6b7088;
+}
+
+.login-icon {
+  font-size: 2.2rem;
+  color: #6d5dfc;
+  background: #eeebff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.login-form label {
+  font-weight: 600;
+}
+
+/* faz os campos ocuparem toda a largura */
+.campo,
+.campo input,
+.login-form .p-password,
+.login-form .p-password input {
+  width: 100%;
+}
+
+.login-opcoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+}
+
+.lembrar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lembrar label {
+  font-weight: 400;
+}
+
+.login-opcoes a {
+  color: #6d5dfc;
+  text-decoration: none;
+}
+
+.login-opcoes a:hover {
+  text-decoration: underline;
+}
+
+.login-form .p-button {
+  width: 100%;
+  justify-content: center;
+}
+
+/* campo de senha na largura total */
+.login-form .p-password {
+  display: block;
+}
+
+.login-form .p-password .p-inputtext {
+  width: 100%;
+}
+
+/* espaço entre o ícone e o texto do email */
+.login-form .p-input-icon-left > .p-inputtext {
+  padding-left: 2.5rem;
+}
+
+.login-form .p-input-icon-left > i {
+  left: 0.9rem;
+}
